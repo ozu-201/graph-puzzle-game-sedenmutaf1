@@ -1,0 +1,3 @@
+C:/Users/sm034353/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/CMakeFiles/graph-puzzle-game-sedenmutaf1.dir
+C:/Users/sm034353/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sm034353/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
