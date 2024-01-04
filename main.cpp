@@ -48,7 +48,7 @@ int main(){
     Graph fourGraph = Graph(83000);
     Graph fiveGraph = Graph(83000);
 
-    string dictionaryFileName="dictionary.txt";
+    string dictionaryFileName="C:\\Users\\casper\\CLionProjects\\graph-puzzle-game-sedenmutaf1\\dictionary.txt";
 
     vector<string> dictionary = readDictionary(dictionaryFileName);
 
@@ -96,6 +96,9 @@ int main(){
             }
         }
     }
+
+    cout<<"finished"<<endl;
+    Path* shortestPaths = threeGraph.Dijkstra("aar", "anu",wordToIndex,dictionary);
 
 
     return 0;

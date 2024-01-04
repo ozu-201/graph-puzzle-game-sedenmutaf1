@@ -2,11 +2,14 @@
 // Created by Olcay Taner YILDIZ on 8.05.2023.
 //
 
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 #include "Graph.h"
 #include "DisjointSet.h"
 #include "Queue.h"
 #include "MinHeap.h"
-
+#include <algorithm>
 
 
 Graph::Graph(int _vertexCount) : AbstractGraph(_vertexCount){
@@ -100,8 +103,120 @@ Graph::Graph(int _vertexCount) : AbstractGraph(_vertexCount){
         }
         return shortestPaths;
     }
+Path* Graph::Dijkstra(const std::string& startWord, const std::string& endWord, const std::unordered_map<std::string, int>& wordToIndex, const std::vector<std::string>& dictionary) {
+    if (std::find(dictionary.begin(), dictionary.end(), startWord) == dictionary.end() ||
+        std::find(dictionary.begin(), dictionary.end(), endWord) == dictionary.end()) {
+        std::cerr << "Invalid start or end word." << std::endl;
+        return nullptr;
+    }
 
-    Path *Graph::dijkstra(int source) {
+    int source = wordToIndex.at(startWord);
+    int destination = wordToIndex.at(endWord);
+
+    Edge* edge;
+    Path* shortestPaths = initializePaths(source);
+    MinHeap heap = MinHeap(vertexCount);
+
+    for (int i = 0; i < vertexCount; i++) {
+        heap.insert(HeapNode(shortestPaths[i].getDistance(), i));
+    }
+
+    while (!heap.isEmpty()) {
+        HeapNode node = heap.deleteTop();
+        int fromNode = node.getName();
+
+        edge = edges[fromNode].getHead();
+        while (edge != nullptr) {
+            int toNode = edge->getTo();
+            int newDistance = shortestPaths[fromNode].getDistance() + edge->getWeight();
+
+            if (newDistance < shortestPaths[toNode].getDistance()) {
+                int position = heap.search(toNode);
+                heap.update(position, newDistance);
+                shortestPaths[toNode].setDistance(newDistance);
+                shortestPaths[toNode].setPrevious(fromNode);
+            }
+
+            edge = edge->getNext();
+        }
+    }
+
+    std::vector<std::string> path;
+    int currentNode = destination;
+    while (currentNode != source) {
+        path.insert(path.begin(), dictionary[currentNode]);
+        currentNode = shortestPaths[currentNode].getPrevious();
+    }
+    path.insert(path.begin(), startWord);
+
+    std::cout << "Shortest Path: ";
+    for (const std::string& word : path) {
+        std::cout << word << " -> ";
+    }
+    std::cout << " (Total Distance: " << shortestPaths[destination].getDistance() << ")" << std::endl;
+
+    return shortestPaths;
+}
+Path* Graph::BreadthFirstSearch(const std::string& startWord, const std::string& endWord,const std::unordered_map<std::string, int>& wordToIndex,const std::vector<std::string>& dictionary) {
+    if (wordToIndex.find(startWord) == wordToIndex.end() || wordToIndex.find(endWord) == wordToIndex.end()) {
+        std::cerr << "Invalid start or end word." << std::endl;
+        return nullptr;
+    }
+
+    int source = wordToIndex.at(startWord);
+    int destination = wordToIndex.at(endWord);
+
+    bool* visited = new bool[vertexCount];
+    for (int i = 0; i < vertexCount; ++i) {
+        visited[i] = false;
+    }
+
+
+    Queue queue;
+    queue.enqueue(new Node(source));
+    visited[source] = true;
+
+    Path* shortestPaths = initializePaths(source);
+
+    while (!queue.isEmpty()) {
+        int currentNode = queue.dequeue()->getData();
+
+        Edge* edge = edges[currentNode].getHead();
+        while (edge != nullptr) {
+            int toNode = edge->getTo();
+            if (!visited[toNode]) {
+                visited[toNode] = true;
+                queue.enqueue(new Node(toNode));
+
+                int newDistance = shortestPaths[currentNode].getDistance() + edge->getWeight();
+                if (newDistance < shortestPaths[toNode].getDistance()) {
+                    shortestPaths[toNode].setDistance(newDistance);
+                    shortestPaths[toNode].setPrevious(currentNode);
+                }
+            }
+            edge = edge->getNext();
+        }
+    }
+
+    std::vector<std::string> path;
+    int currentNode = destination;
+    while (currentNode != source) {
+        path.insert(path.begin(), dictionary[currentNode]);
+        currentNode = shortestPaths[currentNode].getPrevious();
+    }
+    path.insert(path.begin(), startWord);
+
+
+    std::cout << "Shortest Path (BFS): ";
+    for (const std::string& word : path) {
+        std::cout << word << " -> ";
+    }
+    std::cout << " (Total Distance: " << shortestPaths[destination].getDistance() << ")" << std::endl;
+
+    delete[] visited;
+    return shortestPaths;
+}
+Path *Graph::dijkstra(int source) {
         Edge* edge;
         Path* shortestPaths = initializePaths(source);
         MinHeap heap = MinHeap(vertexCount);
