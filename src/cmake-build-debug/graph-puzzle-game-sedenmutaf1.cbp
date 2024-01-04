@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graph-puzzle-game-sedenmutaf1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestLinkedList">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/TestLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLinkedList"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestLinkedList/fast">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/TestLinkedList.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestLinkedList/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathematicalExpression">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/MathematicalExpression.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathematicalExpression"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathematicalExpression/fast">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/MathematicalExpression.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathematicalExpression/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Polynomial">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Polynomial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Polynomial"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Polynomial/fast">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Polynomial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Polynomial/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DartsGame">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/DartsGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DartsGame"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DartsGame/fast">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/DartsGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DartsGame/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seden">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Seden.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Seden"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seden/fast">
+				<Option output="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Seden.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 Seden/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/AbstractGraph.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/AbstractGraph.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/DisjointSet.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/DisjointSet.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Edge.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Edge.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/EdgeList.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/EdgeList.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Graph.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Graph.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Heap.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Heap.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/HeapNode.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/HeapNode.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/MinHeap.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/MinHeap.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Node.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Node.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Path.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Path.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Queue.cpp">
+			<Option target="DartsGame"/>
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Queue.h">
+			<Option target="DartsGame"/>
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Set.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Set.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/Test/LinkedListTest.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/main.cpp">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/main.h">
+			<Option target="Seden"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/Element.cpp">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/Element.h">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/Queue.cpp">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/Queue.h">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/State.cpp">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/State.h">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/DartsGame/Test.cpp">
+			<Option target="DartsGame"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/Element.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/Element.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Element.cpp">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Element.h">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Evaluate.cpp">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Stack.cpp">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Stack.h">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Token.cpp">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/Token.h">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/MathematicalExpression/TokenType.h">
+			<Option target="MathematicalExpression"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/Stack.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/Array/Stack.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/DoublyLinkedList.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/DoublyLinkedList.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/DoublyNode.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/DoublyNode.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/LinkedList.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/LinkedList.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Node.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Node.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/Polynomial.cpp">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/Polynomial.h">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/Term.cpp">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/Term.h">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/TermNode.cpp">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/TermNode.h">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Polynomial/TestPolynomial.cpp">
+			<Option target="Polynomial"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Stack.cpp">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/List/Stack.h">
+			<Option target="TestLinkedList"/>
+		</Unit>
+		<Unit filename="C:/Users/casper/CLionProjects/graph-puzzle-game-sedenmutaf1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
